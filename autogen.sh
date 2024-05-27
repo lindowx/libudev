@@ -17,8 +17,7 @@ args="$args \
 --prefix=/usr \
 --sysconfdir=/etc \
 --libdir=$(libdir /usr/lib) \
---with-selinux \
---enable-gtk-doc"
+--with-selinux"
 
 if [ -L /bin ]; then
 args="$args \
